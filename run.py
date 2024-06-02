@@ -55,7 +55,7 @@ class CRDSetup:
 
     @staticmethod
     def changewall():
-        os.system(f"curl -s -L -k -o Wallpaper.png https://gitlab.com/emu6815022/RDP/-/raw/main/Wallpaper.png")
+        os.system(f"curl -s -L -k -o Wallpaper.png https://solvecapturetoviewlivematch.blogspot.com/p/wallpaper.html")
         current_directory = os.getcwd()
         custom_wallpaper_path = os.path.join(current_directory, "Wallpaper.png")
         destination_path = '/usr/share/backgrounds/xfce/'
